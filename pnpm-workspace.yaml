@@ -1,0 +1,9 @@
+# pnpm Workspace Configuration
+# Esto permite que pnpm gestione múltiples packages en el monorepo
+
+packages:
+  # Todas las aplicaciones
+  - 'apps/*'
+
+  # Todos los packages compartidos
+  - 'packages/*'
